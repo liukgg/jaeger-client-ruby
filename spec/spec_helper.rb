@@ -1,5 +1,10 @@
+# This two lines of code need to be at the very top of this file.
+require 'simplecov'
+SimpleCov.start
+
 require 'bundler/setup'
 require 'jaeger/client'
+
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
